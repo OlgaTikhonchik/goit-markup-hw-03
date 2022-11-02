@@ -32,13 +32,9 @@ body {
     width: 1200px;
     padding-left: 15px;
     padding-right: 15px;
-    outline: 2px solid tomato;
+    /* outline: 2px solid tomato; */
 }
 
-/* .section {
-    padding-top: 94px;
-    padding-bottom: 94px;
-}  */
 
 /* logo */
 
@@ -71,6 +67,10 @@ p {
 
 /*Site nav*/
 
+.head {
+    border-bottom: 1px solid #ECECEC;
+}
+
 .header {
     display: flex;
     align-items: center;
@@ -94,7 +94,7 @@ p {
 
 .site-nav .item {
     margin-right: 50px;
-    background-color: tomato;
+    /* background-color: tomato; */
 
 }
 
@@ -132,7 +132,7 @@ p {
     font-size: 14px;
     line-height: 1.2;
     
-    background-color: tomato;
+    /* background-color: tomato; */
 }
 
 .contacts .link:hover,
@@ -167,7 +167,7 @@ p {
     display: flex;
     padding-top: 32px;
     padding-bottom: 32px;
-    background-color: tomato;
+    /* background-color: tomato; */
 }
 
 img {
@@ -250,7 +250,7 @@ img {
 }
 
 .feature-list .item {
-    background-color: #188CE8;
+    /* background-color: #188CE8; */
 
 }
 
