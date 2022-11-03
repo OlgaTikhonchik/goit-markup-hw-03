@@ -342,11 +342,16 @@ img {
 }
 
 .section-title {
-    text-align: center;
-    padding-top: 94px;
+    
     margin-bottom: 50px;
-    /* margin-bottom: 0; */
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+
 }
+
+
 
 .title-teams {
    
@@ -403,6 +408,7 @@ img {
     background-color: var(--secondary-bg-color);
     padding-top: 60px;
     padding-bottom: 60px;
+   
 
 }
 
@@ -430,7 +436,9 @@ img {
 }
 
 
+
 .contacts-list .link {
+    
     margin-bottom: 9px;
     color: rgba(255, 255, 255, 0.6);
     text-decoration: none;
@@ -441,11 +449,15 @@ img {
     letter-spacing: 0.03em;
 }
 
+.link {
+    display: inline-block;
+}
 .text {
    color: var(--title-text-color);
 
 }
 .contacts-list .number {
+    
     color: rgba(255, 255, 255, 0.6);
     text-decoration: none;
     font-style: normal;
@@ -458,14 +470,13 @@ img {
 /* Portfolio */
 
 .section-portfolio {
-    /* margin-bottom: 87px; */
+   
     padding-top: 94px;
     padding-bottom: 94px;
 }
 
 .filters-list {
-    display: flex;
-    margin-top: 101px;
+    display: flex; 
     margin-bottom: 50px;
     justify-content: center;
    
